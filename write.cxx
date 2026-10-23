@@ -7,7 +7,7 @@
 void write()
 {
     MovingObject measurement;
-    MovingObject* object = new MovingObject()
+    MovingObject* object = new MovingObject();
 
     TFile file("tree_file.root", "RECREATE");
     if (file.IsZombie()) {
