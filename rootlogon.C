@@ -1,0 +1,3 @@
+{
+gROOT->LoadMacro("MovingObject.cxx+");
+}
