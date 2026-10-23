@@ -25,7 +25,7 @@ void read()
         return;
     }
 
-    tree->Print()
+    tree->Print();
 
     MovingObject measurement;
     MovingObject* object = &measurement;
